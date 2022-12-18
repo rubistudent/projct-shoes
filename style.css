@@ -18,3 +18,10 @@ li {
 img {
    width: 150px;
 }
+button {
+   background-color: green;
+   color: white;
+   padding: 5px 10px;
+   border: none;
+   cursor: pointer;
+}
