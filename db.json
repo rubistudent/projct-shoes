@@ -10,6 +10,13 @@
          "image": "https://via.placeholder.com/150",
          "price": 99.99
       },
+      {
+         "name": "timberland",
+         "image": "https://via.placeholder.com/150",
+         "price": 49.99
+      }
+   ]
+}
  
  
  
