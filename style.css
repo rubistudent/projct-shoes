@@ -11,3 +11,7 @@ h2 {
 ul {
    list-style: none;
 }
+li {
+   display: inline-block;
+   margin: 10px;
+}
