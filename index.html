@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
    <title>shoe store</title>
 </head>
 <body>
@@ -50,26 +51,21 @@
                                    </div>
                                    <div clas="image">
                                        <img src="lv shoe.jpg" alt="">
-           
- <ul>
-    <li>
-       <img src="images.jpeg" alt="Red Running Shoes">
-       <h3>jordan  Shoes</h3>
-       <p>Price: $59.99</p>
-       <button>Add to Cart</button>
-    </li>
-    <li>
-       <img src="nike.webp" alt="Black Dress Shoes">
-       <h3>Air force Shoes</h3>
-       <p>Price: $99.99</p>
-       <button>Add to Cart</button>
-    </li>
-    <li>
-       <img src="product_image_3bbb921b-cb5b-43a6-8692-5ec10c5914c5.jpg" alt="Yellow Sandals">
-       <h3>Timberland</h3>
-       <p>Price: $49.99</p>
-       <button>Add to Cart</button>
-    </li>
- </ul>
+                                            
+                                       <div class="userInput">
+                                          <form onsubmit="postShoes()">
+                                              <h3>Add Shoes</h3>
+                                              <input type="text" name="name" id="brand" placeholder="Name of Shoe">
+                                              <input type="text" name="image" id="imageUrl" placeholder="Image Url">
+                                              <input type="number" name="price" id="shoePrice" placeholder="Price of Shoe">
+                                              <button id="submitButton" type="submit" onclick="postShoes()">Submit</button>
+                                  
+                                          </form>
+                                      </div>
+                                   </div>
+                           </div>
+                         </div>
+       
+ <script src="index.js"></script>
 </body>
 </html>

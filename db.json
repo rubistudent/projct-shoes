@@ -1,22 +1,25 @@
 {
- "shoes": [
-       {
-          "name": "Jordan shoes",
-          "image": "https://via.placeholder.com/150",
-          "price": 59.99
-       },
-       {
-         "name": "Airf force",
-         "image": "https://via.placeholder.com/150",
-         "price": 99.99
-      },
-      {
-         "name": "timberland",
-         "image": "https://via.placeholder.com/150",
-         "price": 49.99
-      }
-   ]
+  "shoes": [
+    {
+      "name": "Jordan shoes",
+      "image": "https://images.pexels.com/photos/4495409/pexels-photo-4495409.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 59.99
+    },
+    {
+      "name": "Airf force",
+      "image": "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 99.99
+    },
+    {
+      "name": "timberland",
+      "image": "https://images.pexels.com/photos/6540980/pexels-photo-6540980.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 49.99
+    },
+    {
+      "id": 1671441996155,
+      "name": "nike",
+      "image": "https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "200"
+    }
+  ]
 }
- 
- 
- 
