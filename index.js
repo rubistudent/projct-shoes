@@ -53,7 +53,14 @@ function postShoes(){
    
    })
 
-   
+   constform = document.querySelector('form');
+const searchInput = document.querySelector('#search');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const searchTerm = searchInput.value;
+  // Perform search using the searchTerm
+});
 
 
 }
